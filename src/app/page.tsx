@@ -317,8 +317,9 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="py-6 text-center text-sm text-muted-foreground">
-        <p>Generate QR codes instantly • No data stored</p>
+      <footer className="py-6 text-center">
+        <p className="text-sm text-muted-foreground">Generate QR codes instantly • No data stored</p>
+        <p className="text-xs text-muted-foreground/60 mt-1">Built by Benaiah Muganzi</p>
       </footer>
     </div>
   )
